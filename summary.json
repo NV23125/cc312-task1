@@ -1,0 +1,38 @@
+{
+  "total_lines": 200000,
+  "valid_lines": 193131,
+  "invalid_lines": 6869,
+  "levels": {
+    "INFO": 135269,
+    "WARN": 38420,
+    "ERROR": 19442
+  },
+  "top_services": [
+    {
+      "service": "db",
+      "count": 19426
+    },
+    {
+      "service": "worker",
+      "count": 19378
+    },
+    {
+      "service": "api",
+      "count": 19366
+    }
+  ],
+  "top_errors": [
+    {
+      "message": "DB timeout while fetching user profile (user_id=5497, ip=45.117.134.223, request_id=55on3ozfumu1)",
+      "count": 1
+    },
+    {
+      "message": "Unhandled exception in request handler (user_id=1935, ip=13.163.22.133, request_id=6v9myt9dewv0)",
+      "count": 1
+    },
+    {
+      "message": "Authentication failed due to invalid token (user_id=7726, ip=193.72.122.180, request_id=kvss5f829dov)",
+      "count": 1
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+Cloud Log Analysis Report
+==========================
+Total lines: 200000
+Invalid lines: 4893
+
+Log Level Counts:
+INFO: 135269
+WARN: 38420
+ERROR: 19442
+INVALID_LEVEL: 1976

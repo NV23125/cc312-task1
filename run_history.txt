@@ -1,0 +1,47 @@
+============================================================
+RUN 1
+============================================================
+Timestamp:    2026-02-09 10:27:05
+Command:      python log_tool.py --level ERROR
+
+Results:
+  - Valid lines scanned: 245012
+  - Lines written:       19483
+  - Output file:         filtered_logs.txt
+
+Filters Applied:
+  - Level: ERROR
+  - Service: None
+
+
+============================================================
+RUN 2
+============================================================
+Timestamp:    2026-02-09 10:27:35
+Command:      python log_tool.py --level WARN --service api
+
+Results:
+  - Valid lines scanned: 245012
+  - Lines written:       2381
+  - Output file:         filtered_logs.txt
+
+Filters Applied:
+  - Level: WARN
+  - Service: api
+
+
+============================================================
+RUN 3
+============================================================
+Timestamp:    2026-02-09 10:28:35
+Command:      python log_tool.py --service auth --out auth_logs.txt
+
+Results:
+  - Valid lines scanned: 245012
+  - Lines written:       12138
+  - Output file:         auth_logs.txt
+
+Filters Applied:
+  - Level: None
+  - Service: auth
+
